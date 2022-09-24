@@ -1,5 +1,7 @@
 # Nvidia-Stop-Tearing-Guide
 
+A guide to "prevent" tearing on Optimus laptop (nothing here is guaretee to work).
+
 ## Some args to limit Nvidia Tearing :
 
 These args can be used on Lutris or on Flatsteal for flatpaks. it works also in softwares if you add these lines before.
