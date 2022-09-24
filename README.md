@@ -4,7 +4,7 @@ A guide to "prevent" tearing on Optimus laptop (nothing here is guaretee to work
 
 ## Some args to limit Nvidia Tearing :
 
-These args can be used on Lutris or on Flatsteal for flatpaks. it works also in softwares if you add these lines before.
+These args can be used on Lutris or on Flatseal for flatpaks. it works also in softwares if you add these lines before.
 
 `DRI_PRIME=pci-0000_01_00_0` 
 
