@@ -16,7 +16,7 @@ These args can be used on Lutris or on Flatseal for flatpaks. it works also in s
 
 This might help the driver to be a bit less laggy.
 
-In `/etc/modprobe.d/nvidia-graphics-drivers.conf` add options `nvidia-drm modeset=1`
+In `/etc/modprobe.d/nvidia-graphics-drivers.conf` add `options nvidia-drm modeset=1`
 
 Then update initramfs :
 
