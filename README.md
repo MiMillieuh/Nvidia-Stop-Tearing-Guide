@@ -22,7 +22,7 @@ Then update initramfs :
 
 On some distro : `sudo update-initramfs -u`
 
-On fedora `sudo dracut --force`
+On fedora : `sudo dracut --force`
 
 On Silverblue : `rpm-ostree initramfs-etc --force-sync`
 
