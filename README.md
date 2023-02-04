@@ -12,7 +12,13 @@ These args can be used on Lutris or on Flatseal for flatpaks. it works also in s
 
 `__GLX_VENDOR_LIBRARY_NAME=nvidia`
 
-## Nvidia modprobe.d
+## Gamemode :
+
+You can also add this line to gamemode if you want to use the GPU when gamemode is in use.
+
+`GAMEMODERUNEXEC="env __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia __VK_LAYER_NV_optimus=NVIDIA_only"`
+
+## Nvidia modprobe.d :
 
 This might help the driver to be a bit less laggy.
 
