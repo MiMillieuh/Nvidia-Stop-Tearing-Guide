@@ -56,6 +56,11 @@ if you have GSYNC also add GLGSYNCAllowed and set it to true.
 
 Save everything with the plus and I would recomand to reboot.
 
+# Crash fix (works sometimes it depends IDK nvidia's mystery...)
+
+## Wayland crash a few hours after blackscreen or freezed image
+
+Just edit in `/etc/gdm/custom.conf` and uncomment `#WaylandEnabled=false` and set it to true
 
 
  ## And remember :
